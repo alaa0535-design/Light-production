@@ -1,55 +1,58 @@
 import React from 'react';
 import { Volume2, Video, Camera, Radio, Monitor, Edit3 } from 'lucide-react';
-
-const services = [
-  {
-    icon: Volume2,
-    title: 'Audio Solutions',
-    description: 'Professional sound systems and mixers for crystal-clear audio experiences.',
-    features: ['Professional sound systems', 'Digital mixers', 'Wireless microphones', 'Live audio monitoring']
-  },
-  {
-    icon: Video,
-    title: 'Video Production',
-    description: 'Multi-camera setups, cranes, and live feeds for comprehensive video coverage.',
-    features: ['Multi-camera setups', 'Camera cranes & jibs', 'Live video feeds', 'Professional operators']
-  },
-  {
-    icon: Camera,
-    title: 'Photography',
-    description: 'Event coverage and promotional shots with professional photographers.',
-    features: ['Event photography', 'Promotional shoots', 'High-resolution images', 'Quick turnaround']
-  },
-  {
-    icon: Radio,
-    title: 'Live Streaming',
-    description: 'Multi-platform broadcasting in HD quality for global audience reach.',
-    features: ['HD live streaming', 'Multi-platform broadcast', 'Real-time monitoring', 'Interactive features']
-  },
-  {
-    icon: Monitor,
-    title: 'Media Server & Visuals',
-    description: 'LED screens, projection, and content control for immersive visual experiences.',
-    features: ['LED wall displays', '4K projection systems', 'Content management', 'Real-time graphics']
-  },
-  {
-    icon: Edit3,
-    title: 'Promo & Editing',
-    description: 'Highlight reels and post-production services for memorable content.',
-    features: ['Video editing', 'Motion graphics', 'Color correction', 'Audio post-production']
-  }
-];
+import { useLanguage } from '../contexts/LanguageContext';
 
 export default function Services() {
+  const { t, isRTL } = useLanguage();
+
+  const services = [
+    {
+      icon: Volume2,
+      title: t('audioSolutions'),
+      description: t('audioDescription'),
+      features: t('audioFeatures')
+    },
+    {
+      icon: Video,
+      title: t('videoProduction'),
+      description: t('videoDescription'),
+      features: t('videoFeatures')
+    },
+    {
+      icon: Camera,
+      title: t('photography'),
+      description: t('photographyDescription'),
+      features: t('photographyFeatures')
+    },
+    {
+      icon: Radio,
+      title: t('liveStreaming'),
+      description: t('liveStreamingDescription'),
+      features: t('liveStreamingFeatures')
+    },
+    {
+      icon: Monitor,
+      title: t('mediaServer'),
+      description: t('mediaServerDescription'),
+      features: t('mediaServerFeatures')
+    },
+    {
+      icon: Edit3,
+      title: t('promoEditing'),
+      description: t('promoEditingDescription'),
+      features: t('promoEditingFeatures')
+    }
+  ];
+
   return (
-    <section id="services" className="py-12 sm:py-16 lg:py-20 bg-gradient-to-br from-slate-800 to-slate-900">
+    <section id="services" className="py-12 sm:py-16 lg:py-20 bg-gradient-to-br from-slate-800 to-slate-900" dir={isRTL ? 'rtl' : 'ltr'}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6">
-            Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Services</span>
+            {t('servicesTitle').split(' ')[0]} <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">{t('servicesTitle').split(' ').slice(1).join(' ') || 'Services'}</span>
           </h2>
           <p className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto px-4">
-            Comprehensive event production services tailored to bring your vision to life with cutting-edge technology and professional expertise.
+            {t('servicesSubtitle')}
           </p>
         </div>
 
@@ -74,9 +77,9 @@ export default function Services() {
                 </div>
                 
                 <ul className="space-y-2">
-                  {service.features.map((feature, featureIndex) => (
+                  {Array.isArray(service.features) && service.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-center text-xs sm:text-sm text-gray-400">
-                      <div className="w-1.5 h-1.5 bg-gradient-to-r from-blue-400 to-cyan-300 rounded-full mr-3"></div>
+                      <div className={`w-1.5 h-1.5 bg-gradient-to-r from-blue-400 to-cyan-300 rounded-full ${isRTL ? 'ml-3' : 'mr-3'}`}></div>
                       {feature}
                     </li>
                   ))}

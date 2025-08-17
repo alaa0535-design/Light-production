@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Arabic Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300;400;500;600;700&display=swap');
+
 /* Mobile optimizations */
 @layer base {
   html {
@@ -13,6 +16,24 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     touch-action: manipulation;
+  }
+  
+  /* Arabic font styling */
+  .arabic-font {
+    font-family: 'Noto Sans Arabic', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* RTL support */
+  [dir="rtl"] {
+    text-align: right;
+  }
+  
+  [dir="rtl"] .rtl\:text-left {
+    text-align: left;
+  }
+  
+  [dir="rtl"] .rtl\:text-right {
+    text-align: right;
   }
 }
 
@@ -48,5 +69,15 @@
       opacity: 1;
       transform: translateY(0);
     }
+  }
+  
+  /* RTL-specific utilities */
+  .rtl\:space-x-reverse > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 1;
+  }
+  
+  /* Arabic number styling */
+  .arabic-numbers {
+    font-feature-settings: 'lnum' 1;
   }
 }

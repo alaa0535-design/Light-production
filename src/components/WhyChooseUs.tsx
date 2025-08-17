@@ -1,39 +1,42 @@
 import React from 'react';
 import { Users, Award, Wrench, Lightbulb } from 'lucide-react';
-
-const reasons = [
-  {
-    icon: Users,
-    title: 'Professional Team',
-    description: 'Experienced professionals with years of expertise in event production and technical execution.'
-  },
-  {
-    icon: Award,
-    title: 'Full Event Coverage',
-    description: 'Complete end-to-end services from planning to execution, ensuring every detail is perfectly managed.'
-  },
-  {
-    icon: Wrench,
-    title: 'Modern Equipment',
-    description: 'State-of-the-art technology and equipment maintained to the highest industry standards.'
-  },
-  {
-    icon: Lightbulb,
-    title: 'Creative Excellence',
-    description: 'Innovative solutions and creative approaches to make your event truly memorable and unique.'
-  }
-];
+import { useLanguage } from '../contexts/LanguageContext';
 
 export default function WhyChooseUs() {
+  const { t, isRTL } = useLanguage();
+
+  const reasons = [
+    {
+      icon: Users,
+      title: t('professionalTeamTitle'),
+      description: t('professionalTeamDescription')
+    },
+    {
+      icon: Award,
+      title: t('fullEventCoverage'),
+      description: t('fullEventCoverageDescription')
+    },
+    {
+      icon: Wrench,
+      title: t('modernEquipment'),
+      description: t('modernEquipmentDescription')
+    },
+    {
+      icon: Lightbulb,
+      title: t('creativeExcellence'),
+      description: t('creativeExcellenceDescription')
+    }
+  ];
+
   return (
-    <section className="py-12 sm:py-16 lg:py-20 bg-slate-900">
+    <section className="py-12 sm:py-16 lg:py-20 bg-slate-900" dir={isRTL ? 'rtl' : 'ltr'}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6">
-            Why Choose <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Us</span>
+            {t('whyChooseUsTitle').split(' ').slice(0, -1).join(' ')} <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">{t('whyChooseUsTitle').split(' ').slice(-1)[0]}</span>
           </h2>
           <p className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto px-4">
-            We combine technical expertise, creative vision, and professional excellence to deliver exceptional event experiences.
+            {t('whyChooseUsSubtitle')}
           </p>
         </div>
 
