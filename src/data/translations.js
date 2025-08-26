@@ -83,7 +83,15 @@ export const translations = {
     allRightsReserved: '© 2024 Lights Production. All rights reserved.',
     privacyPolicy: 'Privacy Policy',
     termsOfService: 'Terms of Service',
-    sitemap: 'Sitemap'
+    sitemap: 'Sitemap',
+    
+    // Projects Section
+    projectsTitle: 'Our Projects',
+    projectsSubtitle: 'Explore our portfolio of successful events and productions that showcase our expertise and creative excellence.',
+    allProjects: 'All Projects',
+    viewProject: 'View Project',
+    loadMoreProjects: 'Load More Projects',
+    more: 'more'
   },
   
   ar: {
@@ -169,7 +177,15 @@ export const translations = {
     allRightsReserved: '© 2024 لايتس برودكشن. جميع الحقوق محفوظة.',
     privacyPolicy: 'سياسة الخصوصية',
     termsOfService: 'شروط الخدمة',
-    sitemap: 'خريطة الموقع'
+    sitemap: 'خريطة الموقع',
+    
+    // Projects Section
+    projectsTitle: 'مشاريعنا',
+    projectsSubtitle: 'استكشف محفظة أعمالنا من الفعاليات والإنتاجات الناجحة التي تُظهر خبرتنا وتميزنا الإبداعي.',
+    allProjects: 'جميع المشاريع',
+    viewProject: 'عرض المشروع',
+    loadMoreProjects: 'تحميل المزيد من المشاريع',
+    more: 'المزيد'
   }
 };
 

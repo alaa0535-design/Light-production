@@ -1,25 +1,32 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { LanguageProvider } from './contexts/LanguageContext';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
-import Services from './components/Services';
-import WhyChooseUs from './components/WhyChooseUs';
-import CallToAction from './components/CallToAction';
-import Footer from './components/Footer';
+import HomePage from './pages/HomePage';
+import ProjectsPage from './pages/ProjectsPage';
+import AdminLoginPage from './pages/AdminLoginPage';
+import AdminLayout from './layouts/AdminLayout';
+import AuthGuard from './components/Auth/AuthGuard';
+import AdminDashboard from './pages/Admin/AdminDashboard';
+import ProjectManagement from './pages/Admin/ProjectManagement';
 
 function App() {
   return (
     <LanguageProvider>
-      <div className="min-h-screen bg-slate-900">
-        <Header />
-        <Hero />
-        <About />
-        <Services />
-        <WhyChooseUs />
-        <CallToAction />
-        <Footer />
-      </div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/admin/login" element={<AdminLoginPage />} />
+          <Route path="/admin" element={
+            <AuthGuard>
+              <AdminLayout />
+            </AuthGuard>
+          }>
+            <Route index element={<AdminDashboard />} />
+            <Route path="projects" element={<ProjectManagement />} />
+          </Route>
+        </Routes>
+      </Router>
     </LanguageProvider>
   );
 }
