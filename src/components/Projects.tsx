@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Calendar, Tag, ExternalLink, Play, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { supabase, Project, ProjectImage } from '../lib/supabaseClient';
@@ -276,10 +277,13 @@ export default function Projects() {
                     </div>
                   </div>
                   
-                  <button className="flex items-center space-x-1 rtl:space-x-reverse text-cyan-400 hover:text-cyan-300 transition-colors duration-300 text-xs sm:text-sm font-medium touch-manipulation">
+                  <Link 
+                    to={`/projects/${project.id}`}
+                    className="flex items-center space-x-1 rtl:space-x-reverse text-cyan-400 hover:text-cyan-300 transition-colors duration-300 text-xs sm:text-sm font-medium touch-manipulation"
+                  >
                     <span>{t('viewProject')}</span>
                     <ExternalLink className="w-4 h-4" />
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -91,7 +91,19 @@ export const translations = {
     allProjects: 'All Projects',
     viewProject: 'View Project',
     loadMoreProjects: 'Load More Projects',
-    more: 'more'
+    more: 'more',
+    
+    // Project Detail Page
+    backToProjects: 'Back to Projects',
+    projectDetails: 'Project Details',
+    projectInfo: 'Project Information',
+    year: 'Year',
+    category: 'Category',
+    servicesProvided: 'Services Provided',
+    gallery: 'Gallery',
+    interestedInSimilarProject: 'Interested in a Similar Project?',
+    contactUsForConsultation: 'Contact us to discuss how we can bring your vision to life with our professional event production services.',
+    viewMoreProjects: 'View More Projects'
   },
   
   ar: {
@@ -185,7 +197,19 @@ export const translations = {
     allProjects: 'جميع المشاريع',
     viewProject: 'عرض المشروع',
     loadMoreProjects: 'تحميل المزيد من المشاريع',
-    more: 'المزيد'
+    more: 'المزيد',
+    
+    // Project Detail Page
+    backToProjects: 'العودة إلى المشاريع',
+    projectDetails: 'تفاصيل المشروع',
+    projectInfo: 'معلومات المشروع',
+    year: 'السنة',
+    category: 'الفئة',
+    servicesProvided: 'الخدمات المقدمة',
+    gallery: 'المعرض',
+    interestedInSimilarProject: 'مهتم بمشروع مماثل؟',
+    contactUsForConsultation: 'تواصل معنا لمناقشة كيف يمكننا تحقيق رؤيتك بخدمات إنتاج الفعاليات المهنية.',
+    viewMoreProjects: 'عرض المزيد من المشاريع'
   }
 };
 

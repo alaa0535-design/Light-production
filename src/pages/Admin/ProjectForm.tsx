@@ -35,12 +35,16 @@ export default function ProjectForm({ project, onSuccess, onCancel }: ProjectFor
     try {
       let projectId = project?.id;
       
+      // Get the first image URL for the main image field (required by database)
+      const mainImageUrl = projectImages.length > 0 ? projectImages[0].image_url : (project?.image || '');
+      
       if (project) {
         // Update existing project
         const { error } = await supabase
           .from('projects')
           .update({
             ...formData,
+            image: mainImageUrl,
             updated_at: new Date().toISOString()
           })
           .eq('id', project.id);
@@ -51,7 +55,10 @@ export default function ProjectForm({ project, onSuccess, onCancel }: ProjectFor
         // Create new project
         const { data, error } = await supabase
           .from('projects')
-          .insert([formData])
+          .insert([{
+            ...formData,
+            image: mainImageUrl
+          }])
           .select()
           .single();
 
@@ -91,6 +98,7 @@ export default function ProjectForm({ project, onSuccess, onCancel }: ProjectFor
       onSuccess();
     } catch (error) {
       console.error('Error saving project:', error);
+      alert('Error saving project: ' + (error as Error).message);
     } finally {
       setSaving(false);
     }
