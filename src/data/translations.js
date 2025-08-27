@@ -115,7 +115,7 @@ export const translations = {
     contact: 'اتصل بنا',
     
     // Hero Section
-    companyName: 'LIGHTS PRODUCTION',
+    companyName: 'أضواء للإنتاج',
     tagline: 'من الألف إلى الياء - نحن نصنع حدثك',
     seeProjects: 'شاهد مشاريعنا',
     

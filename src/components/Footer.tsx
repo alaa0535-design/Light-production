@@ -38,11 +38,11 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-3 rtl:space-x-reverse">
                 <Phone className="w-4 h-4 sm:w-5 sm:h-5 text-blue-400 flex-shrink-0" />
-                <span className="text-gray-400 text-sm sm:text-base">+1 (555) 123-4567</span>
+                <span className="text-gray-400 text-sm sm:text-base">+966561550022</span>
               </div>
               <div className="flex items-center space-x-3 rtl:space-x-reverse">
                 <MapPin className="w-4 h-4 sm:w-5 sm:h-5 text-blue-400 flex-shrink-0" />
-                <span className="text-gray-400 text-sm sm:text-base">Los Angeles, CA</span>
+                <span className="text-gray-400 text-sm sm:text-base">Jeddah, Saudi Arabia</span>
               </div>
             </div>
           </div>
