@@ -22,9 +22,14 @@ export default function Header() {
               alt="Lights Production Logo" 
               className="w-6 h-6 sm:w-8 sm:h-8 object-contain flex-shrink-0"
             />
-            <span className="text-white font-bold text-sm sm:text-lg lg:text-xl truncate">
-              {t('companyName')}
-            </span>
+            <div className="text-white font-bold text-sm sm:text-lg lg:text-xl min-w-0">
+              <div className="leading-tight">
+                {t('companyName').split(' ')[0]}
+              </div>
+              <div className="text-cyan-300 font-light text-xs sm:text-sm lg:text-base -mt-1 leading-tight">
+                {t('companyName').split(' ')[1] || 'PRODUCTION'}
+              </div>
+            </div>
             </Link>
           </div>
           

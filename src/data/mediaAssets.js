@@ -4,7 +4,7 @@ export const mediaAssets = {
   logo: 'https://res.cloudinary.com/dafmeoail/image/upload/v1755418985/Modern_Geometric_Lights_Production_Logo1_fszxj3.png',
   
   // Hero Section Images
-  heroBanner: 'https://res.cloudinary.com/dafmeoail/image/upload/v1755419264/Lights_Production_Hero_Banner_Image_vxbbwt.png',
+  heroBanner: 'https://i.postimg.cc/g0gz658z/Chat-GPT-Image-Aug-27-2025-12-31-36-PM.png',
   
   // Service Images
   // Add service-related images here when available

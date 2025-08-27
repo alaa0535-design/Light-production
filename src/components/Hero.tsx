@@ -19,15 +19,6 @@ export default function Hero() {
         {/* Overlay for better text readability */}
         <div className="absolute inset-0 bg-gradient-to-br from-slate-900/70 via-blue-900/60 to-slate-900/70"></div>
         
-        {/* Stage lights effect */}
-        <div className="absolute top-0 left-0 w-full h-full">
-          <div className="absolute top-0 left-1/6 w-32 h-full bg-gradient-to-b from-blue-400/20 to-transparent transform -skew-x-12 animate-pulse"></div>
-          <div className="absolute top-0 left-2/6 w-32 h-full bg-gradient-to-b from-cyan-300/15 to-transparent transform -skew-x-12 animate-pulse" style={{ animationDelay: '0.5s' }}></div>
-          <div className="absolute top-0 left-3/6 w-32 h-full bg-gradient-to-b from-blue-300/18 to-transparent transform -skew-x-12 animate-pulse" style={{ animationDelay: '1s' }}></div>
-          <div className="absolute top-0 left-4/6 w-32 h-full bg-gradient-to-b from-cyan-400/15 to-transparent transform -skew-x-12 animate-pulse" style={{ animationDelay: '1.5s' }}></div>
-          <div className="absolute top-0 left-5/6 w-32 h-full bg-gradient-to-b from-blue-400/20 to-transparent transform -skew-x-12 animate-pulse" style={{ animationDelay: '0.3s' }}></div>
-        </div>
-        
         {/* Audience silhouette */}
         <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-black/60 to-transparent"></div>
         <div className="absolute bottom-0 left-0 w-full h-24">
