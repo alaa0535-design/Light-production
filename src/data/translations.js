@@ -73,7 +73,7 @@ export const translations = {
     // Call to Action
     ctaTitle: "Let's Make Your Next Event Memorable",
     ctaSubtitle: "Ready to create an unforgettable experience? Get in touch with our team to discuss your event production needs.",
-    getFreeConsultation: 'Get Free Consultation',
+    getFreeConsultation: 'Contact us now',
     viewPortfolio: 'View Our Portfolio',
     
     // Footer
@@ -179,7 +179,7 @@ export const translations = {
     // Call to Action
     ctaTitle: 'دعنا نجعل فعاليتك القادمة لا تُنسى',
     ctaSubtitle: 'مستعد لخلق تجربة لا تُنسى؟ تواصل مع فريقنا لمناقشة احتياجات إنتاج فعاليتك.',
-    getFreeConsultation: 'احصل على استشارة مجانية',
+    getFreeConsultation: 'تواصل معنا الآن',
     viewPortfolio: 'شاهد أعمالنا',
     
     // Footer
