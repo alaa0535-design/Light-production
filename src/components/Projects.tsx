@@ -215,13 +215,6 @@ export default function Projects() {
                   </>
                 )}
                 
-                {/* Play Button Overlay */}
-                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300">
-                  <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center border border-white/30 hover:bg-white/30 transition-all duration-300 cursor-pointer">
-                    <Play className="w-6 h-6 text-white ml-1" />
-                  </div>
-                </div>
-
                 {/* Category Badge */}
                 <div className="absolute top-4 left-4">
                   <span className="px-3 py-1 bg-gradient-to-r from-blue-600/80 to-cyan-500/80 backdrop-blur-sm text-white text-xs sm:text-sm font-medium rounded-full border border-white/20">
@@ -265,16 +258,10 @@ export default function Projects() {
                 </div>
 
                 {/* Project Meta */}
-                <div className="flex items-center justify-between pt-4 border-t border-slate-700/50">
-                  <div className="flex items-center space-x-4 rtl:space-x-reverse text-xs sm:text-sm text-gray-400">
-                    <div className="flex items-center space-x-1 rtl:space-x-reverse">
-                      <Calendar className="w-4 h-4" />
-                      <span>{project.year}</span>
-                    </div>
-                    <div className="flex items-center space-x-1 rtl:space-x-reverse">
-                      <Tag className="w-4 h-4" />
-                      <span>{language === 'en' ? project.category_en : project.category_ar}</span>
-                    </div>
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center space-x-2 rtl:space-x-reverse text-gray-400 text-xs sm:text-sm">
+                    <Calendar className="w-4 h-4" />
+                    <span>{project.year}</span>
                   </div>
                   
                   <Link 
