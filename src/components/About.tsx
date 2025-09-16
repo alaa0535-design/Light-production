@@ -27,7 +27,7 @@ export default function About() {
                 {/* Box 1: Years of Experience */}
                 <div className="flex items-start justify-start space-x-4 rtl:space-x-reverse h-full">
                   <div className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 bg-gradient-to-br from-blue-500 to-cyan-400 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <span className="text-white font-extrabold text-xl sm:text-2xl lg:text-3xl arabic-numbers">10+</span>
+                    <span className="text-white font-extrabold text-xl sm:text-2xl lg:text-3xl arabic-numbers">15+</span>
                   </div>
                   <div className="min-w-0">
                     <p className="text-white font-semibold text-base sm:text-lg">{t('yearsExperience')}</p>
