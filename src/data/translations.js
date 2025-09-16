@@ -15,9 +15,9 @@ export const translations = {
     
     // About Section
     aboutTitle: 'About Us',
-    aboutText1: 'Lights Production is a premier event production company specializing in creating unforgettable experiences through cutting-edge technology and creative excellence.',
-    aboutText2: 'Our comprehensive services include professional audio systems, multi-camera video production, stunning photography, live streaming solutions, advanced media server management, and complete post-production editing services.',
-    aboutText3: 'From intimate corporate gatherings to large-scale concerts and festivals, we bring your vision to life with precision, creativity, and unmatched technical expertise.',
+    aboutText1: 'Lights Production was founded more than fifteen years ago by the late Eng. Abu Rayan, originally under the name Aboryan Establishment. Over the years, with continuous growth and commitment to excellence, the company has evolved into one of the leading names in audio-visual production and full-scale event management.',
+    aboutText2: 'At Lights Production, we put our extensive expertise and cutting-edge technology at the service of both public and private sector clients, delivering professional solutions for conferences, forums, exhibitions, and official events. We integrate advanced sound and lighting systems, live broadcasting equipment, professional cameras, and state-of-the-art control software to ensure flawless execution with the highest standards of quality.',
+    aboutText3: 'Our vision is to be the trusted partner in event production, and our mission is to elevate every event we manage into a professional experience that reflects our clients’ image and achieves their goals.',
     yearsExperience: 'Years Experience',
     inEventProduction: 'In Event Production',
     eventsProduced: 'Events Produced',
@@ -34,45 +34,45 @@ export const translations = {
     audioDescription: 'Professional sound systems and mixers for crystal-clear audio experiences.',
     audioFeatures: ['Professional sound systems', 'Digital mixers', 'Wireless microphones', 'Live audio monitoring'],
     
+    lightingLedSolutions: 'Lighting & LED Solutions',
+    lightingLedDescription: 'Advanced lighting setups and LED displays to create immersive event atmospheres.',
+    lightingLedFeatures: ['Stage and ambient lighting', 'High-resolution LED screens', 'Custom visual effects', 'Lighting control systems'],
+    
     videoProduction: 'Video Production',
-    videoDescription: 'Multi-camera setups, cranes, and live feeds for comprehensive video coverage.',
-    videoFeatures: ['Multi-camera setups', 'Camera cranes & jibs', 'Live video feeds', 'Professional operators'],
+    videoDescription: 'High-quality video coverage for events, promotions, and corporate content.',
+    videoFeatures: ['Professional video cameras', 'Multi-angle event recording', 'Promotional video production', 'On-site editing support'],
     
-    photography: 'Photography',
-    photographyDescription: 'Event coverage and promotional shots with professional photographers.',
-    photographyFeatures: ['Event photography', 'Promotional shoots', 'High-resolution images', 'Quick turnaround'],
+    photography: 'Photography Services',
+    photographyDescription: 'Professional photography that captures moments and delivers lasting impressions.',
+    photographyFeatures: ['Event photography', 'Corporate and product shoots', 'Creative promotional photos', 'High-resolution image delivery'],
     
-    liveStreaming: 'Live Streaming',
-    liveStreamingDescription: 'Multi-platform broadcasting in HD quality for global audience reach.',
-    liveStreamingFeatures: ['HD live streaming', 'Multi-platform broadcast', 'Real-time monitoring', 'Interactive features'],
+    liveStreaming: 'Live Streaming & Broadcasting',
+    liveStreamingDescription: 'Seamless streaming solutions with advanced technology for flawless coverage.',
+    liveStreamingFeatures: ['Live broadcasting computers', 'vMix & Resolume software control', 'Multi-platform streaming', 'LED screen integration'],
     
-    mediaServer: 'Media Server & Visuals',
-    mediaServerDescription: 'LED screens, projection, and content control for immersive visual experiences.',
-    mediaServerFeatures: ['LED wall displays', '4K projection systems', 'Content management', 'Real-time graphics'],
-    
-    promoEditing: 'Promo & Editing',
-    promoEditingDescription: 'Highlight reels and post-production services for memorable content.',
-    promoEditingFeatures: ['Video editing', 'Motion graphics', 'Color correction', 'Audio post-production'],
+    fullEventManagement: 'Full Event Management',
+    fullEventManagementDescription: 'Comprehensive solutions to handle events from planning to execution.',
+    fullEventManagementFeatures: ['Event concept & planning', 'Technical setup and installation', 'On-site operations and support', 'End-to-end event coordination'],
     
     // Why Choose Us Section
     whyChooseUsTitle: 'Why Choose Us',
-    whyChooseUsSubtitle: 'We combine technical expertise, creative vision, and professional excellence to deliver exceptional event experiences.',
+    whyChooseUsSubtitle: 'At Lights Production, we combine expertise and advanced technology to transform every event into a seamless and unforgettable experience.',
     
-    professionalTeamTitle: 'Professional Team',
-    professionalTeamDescription: 'Experienced professionals with years of expertise in event production and technical execution.',
+    professionalTeamTitle: 'Expert Team',
+    professionalTeamDescription: 'Our team of skilled professionals blends technical expertise with creative vision, ensuring every event stands out with a unique identity.',
     
-    fullEventCoverage: 'Full Event Coverage',
-    fullEventCoverageDescription: 'Complete end-to-end services from planning to execution, ensuring every detail is perfectly managed.',
+    fullEventCoverage: 'Comprehensive Solutions',
+    fullEventCoverageDescription: 'From planning and preparation to execution and live operation, we manage events end-to-end with professionalism and precision.',
     
-    modernEquipment: 'Modern Equipment',
-    modernEquipmentDescription: 'State-of-the-art technology and equipment maintained to the highest industry standards.',
+    modernEquipment: 'Advanced Equipment & Technology',
+    modernEquipmentDescription: 'We utilize the latest sound, lighting, and broadcasting systems, along with LED screens and professional cameras, to deliver world-class quality.',
     
-    creativeExcellence: 'Creative Excellence',
-    creativeExcellenceDescription: 'Innovative solutions and creative approaches to make your event truly memorable and unique.',
+    creativeExcellence: 'Commitment to Excellence',
+    creativeExcellenceDescription: 'We focus on every detail to guarantee success, with client satisfaction at the heart of everything we do.',
     
     // Call to Action
-    ctaTitle: "Let's Make Your Next Event Memorable",
-    ctaSubtitle: "Ready to create an unforgettable experience? Get in touch with our team to discuss your event production needs.",
+    ctaTitle: "Let’s create an event that leaves a lasting impression",
+    ctaSubtitle: "Ready to take your event to the next level? Connect with us today and let our team bring your vision to life with the highest standards of professionalism.",
     getFreeConsultation: 'Contact us now',
     viewPortfolio: 'View Our Portfolio',
     
@@ -121,9 +121,9 @@ export const translations = {
     
     // About Section
     aboutTitle: 'من نحن',
-    aboutText1: 'نحن شركة رائدة في إنتاج الفعاليات متخصصة في خلق تجارب لا تُنسى من خلال التكنولوجيا المتطورة والتميز الإبداعي.',
-    aboutText2: 'تشمل خدماتنا الشاملة أنظمة الصوت المهنية، وإنتاج الفيديو متعدد الكاميرات، والتصوير الفوتوغرافي المذهل، وحلول البث المباشر، وإدارة خوادم الوسائط المتقدمة، وخدمات التحرير الكاملة بعد الإنتاج.',
-    aboutText3: 'من التجمعات المؤسسية الحميمة إلى الحفلات الموسيقية والمهرجانات الكبيرة، نحن نحقق رؤيتك بدقة وإبداع وخبرة تقنية لا مثيل لها.',
+    aboutText1: 'تأسست أضواء للإنتاج قبل أكثر من خمسة عشر عامًا على يد المهندس أبو ريان – رحمه الله – تحت اسم مؤسسة أبوريان. ومع مسيرة من التطوير المستمر والالتزام بالجودة، أصبحت الشركة اليوم واحدة من الأسماء البارزة في مجال الإنتاج الصوتي والمرئي وإدارة الفعاليات المتكاملة.',
+    aboutText2: 'نحن في أضواء للإنتاج نضع خبرتنا الطويلة وتقنياتنا الحديثة في خدمة عملائنا من القطاعين العام والخاص، لتقديم حلول احترافية تشمل المؤتمرات، المنتديات، المعارض، والفعاليات الرسمية. نحرص على توظيف أحدث أنظمة الصوت والإضاءة والبث المباشر، إضافة إلى الكاميرات الاحترافية وبرامج التحكم المتقدمة، لنضمن تنفيذ الفعالية بأعلى مستوى من الدقة والكفاءة.',
+    aboutText3: 'رؤيتنا أن نكون الشريك الموثوق في صناعة الفعاليات، ورسالتنا أن نرتقي بكل حدث نتولى إدارته ليعكس صورة احترافية تليق بعملائنا وتحقق أهدافهم.',
     yearsExperience: 'سنوات خبرة',
     inEventProduction: 'في إنتاج الفعاليات',
     eventsProduced: 'فعالية منتجة',
@@ -137,48 +137,48 @@ export const translations = {
     
     // Service Items
     audioSolutions: 'الحلول الصوتية',
-    audioDescription: 'أنظمة صوتية مهنية وخلاطات للحصول على تجارب صوتية واضحة تماماً.',
-    audioFeatures: ['أنظمة صوتية مهنية', 'خلاطات رقمية', 'ميكروفونات لاسلكية', 'مراقبة الصوت المباشر'],
+    audioDescription: 'أنظمة صوت احترافية ومكسرات رقمية لتجربة صوتية واضحة ونقية.',
+    audioFeatures: ['أنظمة صوت احترافية', 'مكسرات رقمية', 'مايكات لاسلكية', 'مراقبة صوت مباشرة'],
+    
+    lightingLedSolutions: 'حلول الإضاءة والشاشات',
+    lightingLedDescription: 'إضاءة متطورة وشاشات LED عالية الدقة لخلق أجواء مميزة في الفعاليات.',
+    lightingLedFeatures: ['إضاءة مسرحية وديكورية', 'شاشات LED عالية الدقة', 'مؤثرات بصرية مخصصة', 'أنظمة تحكم بالإضاءة'],
     
     videoProduction: 'إنتاج الفيديو',
-    videoDescription: 'إعدادات متعددة الكاميرات، والرافعات، والتغذية المباشرة لتغطية فيديو شاملة.',
-    videoFeatures: ['إعدادات متعددة الكاميرات', 'رافعات وأذرع الكاميرا', 'تغذية فيديو مباشرة', 'مشغلون محترفون'],
+    videoDescription: 'تغطية مرئية عالية الجودة للفعاليات والإعلانات والمحتوى المؤسسي.',
+    videoFeatures: ['كاميرات فيديو احترافية', 'تصوير متعدد الزوايا للفعاليات', 'إنتاج فيديوهات ترويجية', 'دعم المونتاج في الموقع'],
     
-    photography: 'التصوير الفوتوغرافي',
-    photographyDescription: 'تغطية الفعاليات واللقطات الترويجية مع مصورين محترفين.',
-    photographyFeatures: ['تصوير الفعاليات', 'جلسات تصوير ترويجية', 'صور عالية الدقة', 'تسليم سريع'],
+    photography: 'خدمات التصوير الفوتوغرافي',
+    photographyDescription: 'تصوير احترافي يلتقط اللحظات ويترك انطباعًا يدوم.',
+    photographyFeatures: ['تصوير الفعاليات', 'تصوير الشركات والمنتجات', 'صور إبداعية ترويجية', 'تسليم صور عالية الدقة'],
     
-    liveStreaming: 'البث المباشر',
-    liveStreamingDescription: 'البث متعدد المنصات بجودة عالية الوضوح للوصول إلى جمهور عالمي.',
-    liveStreamingFeatures: ['بث مباشر عالي الوضوح', 'بث متعدد المنصات', 'مراقبة في الوقت الفعلي', 'ميزات تفاعلية'],
+    liveStreaming: 'البث المباشر والنقل الحي',
+    liveStreamingDescription: 'حلول بث مباشر سلسة باستخدام أحدث التقنيات لضمان تغطية مثالية.',
+    liveStreamingFeatures: ['أجهزة بث احترافية', 'التحكم عبر برامج vMix وResolume', 'بث متعدد المنصات', 'تكامل مع شاشات LED'],
     
-    mediaServer: 'خادم الوسائط والمرئيات',
-    mediaServerDescription: 'شاشات LED، والإسقاط، والتحكم في المحتوى لتجارب بصرية غامرة.',
-    mediaServerFeatures: ['شاشات جدار LED', 'أنظمة إسقاط 4K', 'إدارة المحتوى', 'رسوميات في الوقت الفعلي'],
-    
-    promoEditing: 'الترويج والتحرير',
-    promoEditingDescription: 'مقاطع الأحداث البارزة وخدمات ما بعد الإنتاج للمحتوى الذي لا يُنسى.',
-    promoEditingFeatures: ['تحرير الفيديو', 'الرسوميات المتحركة', 'تصحيح الألوان', 'ما بعد إنتاج الصوت'],
+    fullEventManagement: 'إدارة الفعاليات المتكاملة',
+    fullEventManagementDescription: 'حلول شاملة لإدارة الفعاليات من التخطيط وحتى التنفيذ.',
+    fullEventManagementFeatures: ['وضع فكرة وخطة الفعالية', 'التركيب والإعدادات التقنية', 'التشغيل والدعم في الموقع', 'تنسيق كامل للفعالية من البداية للنهاية'],
     
     // Why Choose Us Section
     whyChooseUsTitle: 'لماذا تختارنا',
-    whyChooseUsSubtitle: 'نحن نجمع بين الخبرة التقنية والرؤية الإبداعية والتميز المهني لتقديم تجارب فعاليات استثنائية.',
+    whyChooseUsSubtitle: 'في أضواء للإنتاج نحن نضع خبرتنا وتقنياتنا الحديثة في خدمة عملائنا لنحوّل أي فعالية إلى تجربة استثنائية متكاملة.',
     
-    professionalTeamTitle: 'فريق محترف',
-    professionalTeamDescription: 'محترفون ذوو خبرة مع سنوات من الخبرة في إنتاج الفعاليات والتنفيذ التقني.',
+    professionalTeamTitle: 'فريق متخصص',
+    professionalTeamDescription: 'يضم فريقنا خبراء في التقنية والإبداع قادرين على ابتكار حلول مميزة تعكس صورة عملائنا بأفضل شكل.',
     
-    fullEventCoverage: 'تغطية شاملة للفعالية',
-    fullEventCoverageDescription: 'خدمات شاملة من البداية إلى النهاية من التخطيط إلى التنفيذ، مما يضمن إدارة كل التفاصيل بشكل مثالي.',
+    fullEventCoverage: 'حلول متكاملة',
+    fullEventCoverageDescription: 'من التخطيط والإعداد إلى التنفيذ والتشغيل، ندير الفعاليات من البداية إلى النهاية لضمان تجربة سلسة واحترافية.',
     
-    modernEquipment: 'معدات حديثة',
-    modernEquipmentDescription: 'تكنولوجيا ومعدات حديثة يتم صيانتها وفقاً لأعلى المعايير الصناعية.',
+    modernEquipment: 'معدات وتقنيات متقدمة',
+    modernEquipmentDescription: 'نستخدم أحدث أنظمة الصوت والإضاءة والبث المباشر، مع شاشات LED وكاميرات احترافية تقدم جودة لا تضاهى.',
     
-    creativeExcellence: 'التميز الإبداعي',
-    creativeExcellenceDescription: 'حلول مبتكرة ومناهج إبداعية لجعل فعاليتك مميزة وفريدة حقاً.',
+    creativeExcellence: 'التزام بالتميز',
+    creativeExcellenceDescription: 'نلتزم بأدق التفاصيل لضمان نجاح كل فعالية، ونضع رضا عملائنا في صميم كل ما نقوم به.',
     
     // Call to Action
-    ctaTitle: 'دعنا نجعل فعاليتك القادمة لا تُنسى',
-    ctaSubtitle: 'مستعد لخلق تجربة لا تُنسى؟ تواصل مع فريقنا لمناقشة احتياجات إنتاج فعاليتك.',
+    ctaTitle: 'لنصنع معًا حدثًا يترك أثراً لا يُنسى',
+    ctaSubtitle: 'جاهز للارتقاء بفعاليتك إلى المستوى التالي؟ تواصل معنا اليوم ودع فريقنا يحقق رؤيتك بأعلى معايير الاحترافية.',
     getFreeConsultation: 'تواصل معنا الآن',
     viewPortfolio: 'شاهد أعمالنا',
     

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Volume2, Video, Camera, Radio, Monitor, Edit3 } from 'lucide-react';
+import { Volume2, Video, Camera, Radio, Lightbulb, Award } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export default function Services() {
@@ -11,6 +11,12 @@ export default function Services() {
       title: t('audioSolutions'),
       description: t('audioDescription'),
       features: t('audioFeatures')
+    },
+    {
+      icon: Lightbulb,
+      title: t('lightingLedSolutions'),
+      description: t('lightingLedDescription'),
+      features: t('lightingLedFeatures')
     },
     {
       icon: Video,
@@ -31,16 +37,10 @@ export default function Services() {
       features: t('liveStreamingFeatures')
     },
     {
-      icon: Monitor,
-      title: t('mediaServer'),
-      description: t('mediaServerDescription'),
-      features: t('mediaServerFeatures')
-    },
-    {
-      icon: Edit3,
-      title: t('promoEditing'),
-      description: t('promoEditingDescription'),
-      features: t('promoEditingFeatures')
+      icon: Award,
+      title: t('fullEventManagement'),
+      description: t('fullEventManagementDescription'),
+      features: t('fullEventManagementFeatures')
     }
   ];
 
